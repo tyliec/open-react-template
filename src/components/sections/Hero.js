@@ -61,18 +61,18 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-primary">Alexuh</span>, play Despacito
+              It's <span className="text-color-secondary">Alexa</span>, but for <span className="text-color-primary">Discord</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                A <span className="text-color-primary">Voice Commanded</span> Discord Bot with Hands Free controls
+                A <span className="text-color-primary">Voice Commanded</span> Discord Bot with hand free controls
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Invite Me
+                  <Button target="_blank" tag="a" color="primary" wideMobile href="https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=8&scope=bot">
+                    Invite Alexuh
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button target="_blank" tag="a" color="dark" wideMobile href="https://discord.gg/qN9dkU4">
                     Support Server
                     </Button>
                 </ButtonGroup>

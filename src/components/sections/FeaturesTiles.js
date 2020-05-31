@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                     Control the Server
                     </h4>
                   <p className="m-0 text-sm">
-                    Alexuh, mute Wumpus
+                    Alexuh, kick Wumpus
                     </p>
                 </div>
               </div>

@@ -44,7 +44,7 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
+    title: 'What do our users say?',
     paragraph: ''
   };
 
@@ -67,10 +67,11 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Shenpai</span>
-                  <span className="text-color-low"> / </span>
+                  {/*<span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
                   </span>
+                */}
                 </div>
               </div>
             </div>
@@ -84,10 +85,10 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Tylie</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  <span className="text-color-low">#9594 </span>
+                  {/* <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span>*/}
                 </div>
               </div>
             </div>
@@ -100,11 +101,12 @@ const Testimonial = ({
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ask me for a Drink</span>
-                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-name text-color-high">Ask me for a Drink  </span>
+                  {/*<span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
                   </span>
+                */}
                 </div>
               </div>
             </div>

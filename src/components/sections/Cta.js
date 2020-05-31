@@ -65,8 +65,8 @@ const Cta = ({
               </svg>
             </Input>
             */}
-            <Button tag="a" color="" wideMobile href="https://cruip.com/">
-              Invite Me
+            <Button target="_blank" tag="a" color="" wideMobile href="https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=8&scope=bot">
+              Invite Alexuh 
               </Button>
 
           </div>
