@@ -17,6 +17,7 @@ const FooterNav = ({
       {...props}
       className={classes}
     >
+    {/*}
       <ul className="list-reset">
         <li>
           <Link to="#0">Contact</Link>
@@ -31,6 +32,7 @@ const FooterNav = ({
           <Link to="#0">Support</Link>
         </li>
       </ul>
+    */}
     </nav>
   );
 }
