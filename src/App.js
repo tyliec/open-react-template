@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { useLocation, Switch } from 'react-router-dom';
+import { useLocation, Switch, Redirect, Route } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
@@ -37,6 +37,10 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <Route path="/invite" component={() => {
+            window.location.href = "https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=8&scope=bot";
+            return null;
+          }}/>
         </Switch>
       )} />
   );
