@@ -5,6 +5,7 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
+import CommandList from '../components/sections/CommandList';
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
     <>
       <Hero className="illustration-section-01" />
       <FeaturesTiles />
+      <CommandList />
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
       <Testimonial topDivider />
       <Cta split />
