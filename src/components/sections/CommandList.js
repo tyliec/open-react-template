@@ -6,22 +6,23 @@ import SectionHeader from './partials/SectionHeader';
 
 const commands = [ 
   "Mic Check",
-  "tell me a Joke",
-  "play 'Despacito'",
-  "volume 5 (1-10)",
-  "pause",
-  "resume",
-  "stop",
-  "kick Tim",
-  "mute Gerald",
-  "unmute Gerald",
-  "mute everyone",
-  "unmute everyone",
-  "show me a tiger",
-  "give me a Waifu",
-  "roast Tyler",
-  "spell Lantern",
-  "leave"
+  "Tell Me a Joke",
+  "Play 'Despacito'",
+  "Volume '5' (1-10)",
+  "Pause",
+  "Resume",
+  "Stop",
+  "Kick 'Tim'",
+  "Mute 'Gerald'",
+  "Unmute 'Gerald'",
+  "Mute Everyone",
+  "Unmute Everyone",
+  "Show Me a 'Tiger'",
+  "Give Me a Waifu",
+  "Roast 'Tyler'",
+  "Spell 'Lantern'",
+  "How do I Craft a 'Wooden Pickaxe'",
+  "Leave"
 ]
 
 
@@ -62,18 +63,20 @@ const CommandList = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-secondary">Alexuh</span> show me the commands
+              <span className="text-color-secondary">Alexuh, </span> show me the commands
             </h1>
           </div>
-          <div className="reveal-from-bottom" style={{columns: 2, marginTop: "3rem"}}>
-            {commands.map(command => {
-              return (
-                <ul key={command} className="reveal-from-bottom" data-reveal-delay="500">
-                  <span className="text-color-secondary">Alexuh</span>  
-                  <span className="text-color-primary"> {command}</span>
-                </ul>
-              )  
-            })}
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <div className="reveal-from-bottom" style={{columns: 2, marginTop: "3rem"}}>
+              {commands.map(command => {
+                return (
+                  <ul key={command} className="reveal-from-bottom" data-reveal-delay="500">
+                    <span className="text-color-secondary">Alexuh, </span>  
+                    <span className="text-color-primary"> {command}</span>
+                  </ul>
+                )  
+              })}
+            </div>
           </div>
         </div>
       </div>

@@ -29,7 +29,7 @@ const Hero = ({
 
   const openModal = (e) => {
     e.preventDefault();
-    setVideomodalactive(true);
+    // setVideomodalactive(true);
   }
 
   const closeModal = (e) => {

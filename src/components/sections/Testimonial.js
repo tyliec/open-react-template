@@ -62,11 +62,12 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    I love me some 2D Waifus
-                      </p>
+                    I can be even lazier! Thanks Alexuh
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Shenpai</span>
+                  <span className="text-color-low">#6021 </span>
                   {/*<span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
