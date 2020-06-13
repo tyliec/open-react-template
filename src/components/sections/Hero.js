@@ -69,7 +69,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button target="_blank" tag="a" color="primary" wideMobile href="https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=8&scope=bot">
+                  <Button target="_blank" tag="a" color="primary" wideMobile href="https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=32829248&scope=bot">
                     Invite Alexuh
                     </Button>
                   <Button target="_blank" tag="a" color="dark" wideMobile href="https://discord.gg/qN9dkU4">
