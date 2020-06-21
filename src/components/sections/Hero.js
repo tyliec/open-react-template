@@ -77,6 +77,14 @@ const Hero = ({
                     </Button>
                 </ButtonGroup>
               </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600" style={{justifyContent: 'center', display: 'flex', marginTop: '3rem',}}>   
+                <a href="https://www.facebook.com/alexuhbot">
+                  <i class="fa fa-facebook" style={{marginRight: '10rem'}}></i>
+                </a>
+                <a href="https://www.instagram.com/alexuhbot/">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
