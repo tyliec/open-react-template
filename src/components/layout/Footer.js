@@ -48,6 +48,9 @@ const Footer = ({
             <div className="footer-copyright">
             Made by <a href="https://cruip.com">Cruip</a>. All rights reserved. &nbsp;
             <a href="//privacypolicygenerator.info/live.php?token=YhJnUQEUWTRm7KzA1gXHJZ9pyAXtzvxF">Privacy Policy</a>
+            <span> | 
+            <a href="/tos"> Terms of Service</a>
+            </span>
             </div>
           </div>
         </div>
