@@ -15,6 +15,8 @@ const TOS = () => {
 
 	      <p>Alexuh listens in on voice conversations when you the user invite the Alexuh bot into your voice channel. Alexuh does not store these conversations beyond their intended use. After they are heard and any related commands are run, these conversations are deleted.</p> 
 	      
+	      <p>Alexuh reserves the right to store any and all information that can be used to improve it's service.</p>
+
 	      <p> Alexuh uses multiple services ("Services") to create and stream audio from which is then streamed to Discord for the end user ("User") to listen to.
 	      By the User requesting audio to be streamed from the Services, the User accepts that Alexuh will have no liability arising from the User's use of or access to any third-party content, service or website. </p>
 	      
