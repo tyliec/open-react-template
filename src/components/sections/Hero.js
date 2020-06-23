@@ -79,10 +79,10 @@ const Hero = ({
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600" style={{justifyContent: 'center', display: 'flex', marginTop: '3rem',}}>   
                 <a href="https://www.facebook.com/alexuhbot">
-                  <i class="fa fa-facebook" style={{marginRight: '10rem'}}></i>
+                  <i class="fa fa-facebook" style={{marginRight: '1rem'}}></i>
                 </a>
                 <a href="https://www.instagram.com/alexuhbot/">
-                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-instagram" style={{marginRight: '1rem'}}></i>
                 </a>
               </div>
             </div>
