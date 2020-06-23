@@ -82,7 +82,7 @@ const Hero = ({
                   <i class="fa fa-facebook" style={{marginRight: '1rem'}}></i>
                 </a>
                 <a href="https://www.instagram.com/alexuhbot/">
-                  <i class="fa fa-instagram" style={{marginRight: '1rem'}}></i>
+                  <i class="fa fa-instagram" style={{marginLeft: '1rem'}}></i>
                 </a>
               </div>
             </div>
