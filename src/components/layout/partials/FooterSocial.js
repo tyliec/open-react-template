@@ -33,7 +33,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/alexuhbot">
+          <a target="_blank" href="https://www.facebook.com/alexuhbot">
             <svg
               width="16"
               height="16"
@@ -72,7 +72,7 @@ const FooterSocial = ({
           </a>
         </li> */}
         <li>
-          <a href="https://www.instagram.com/alexuhbot/">
+          <a target="_blank" href="https://www.instagram.com/alexuhbot/">
             <svg
               width="16"
               height="16"
