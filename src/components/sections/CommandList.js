@@ -7,21 +7,23 @@ import SectionHeader from './partials/SectionHeader';
 const commands = [ 
   "Mic Check",
   "Tell Me a Joke",
-  "Play 'Despacito'",
-  "Volume '5' (1-10)",
+  "Play Despacito",
+  "Volume 5 (1-10)",
   "Pause",
   "Resume",
   "Stop",
-  "Kick 'Tim'",
-  "Mute 'Gerald'",
-  "Unmute 'Gerald'",
+  "Kick Tim",
+  "Mute Gerald",
+  "Unmute Kyle",
   "Mute Everyone",
+  "Help me clutch (Also mutes everyone)",
   "Unmute Everyone",
-  "Show Me a 'Tiger'",
+  "Show Me a Tiger",
   "Give Me a Waifu",
-  "Roast 'Tyler'",
-  "Spell 'Lantern'",
-  "How do I Craft a 'Wooden Pickaxe'",
+  "Roast Tyler",
+  "Spell Lantern",
+  "How do I Craft a Wooden Pickaxe? (Minecraft)",
+  "Where we dropping? (Fortnite)",
   "Leave"
 ]
 
@@ -63,7 +65,9 @@ const CommandList = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-secondary">Alexuh, </span> show me the commands
+              <center>
+                <span className="text-color-secondary">Alexuh, </span> help
+              </center>
             </h1>
           </div>
           <div style={{display: "flex", justifyContent: "center"}}>
