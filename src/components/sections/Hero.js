@@ -78,11 +78,11 @@ const Hero = ({
                 </ButtonGroup>
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600" style={{justifyContent: 'center', display: 'flex', marginTop: '3rem',}}>   
-                <a target="_blank" href="https://www.facebook.com/alexuhbot">
-                  <i class="fa fa-facebook" style={{marginRight: '10rem'}}></i>
+                <a href="https://www.facebook.com/alexuhbot">
+                  <i class="fa fa-facebook" style={{marginRight: '1rem'}}></i>
                 </a>
-                <a target="_blank" href="https://www.instagram.com/alexuhbot/">
-                  <i class="fa fa-instagram"></i>
+                <a href="https://www.instagram.com/alexuhbot/">
+                  <i class="fa fa-instagram" style={{marginLeft: '1rem'}}></i>
                 </a>
               </div>
             </div>
