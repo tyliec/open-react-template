@@ -112,7 +112,12 @@ const Testimonial = ({
                 </div>
               </div>
             </div>
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
 
+              <a href="https://top.gg/bot/665512711672823838" >
+              <img src="https://top.gg/api/widget/665512711672823838.svg" alt="Alexuh" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
