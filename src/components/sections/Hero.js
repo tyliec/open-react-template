@@ -35,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -72,17 +72,20 @@ const Hero = ({
                   <Button target="_blank" tag="a" color="primary" wideMobile href="https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=32829248&scope=bot">
                     Invite Alexuh
                     </Button>
-                  <Button target="_blank" tag="a" color="dark" wideMobile href="https://discord.gg/qN9dkU4">
+                  <Button target="_blank" tag="a" color="dark" wideMobile href="https://discord.gg/mdUsmXmWEk">
                     Support Server
                     </Button>
                 </ButtonGroup>
               </div>
-              <div className="reveal-from-bottom" data-reveal-delay="600" style={{justifyContent: 'center', display: 'flex', marginTop: '3rem',}}>   
+              <div className="reveal-from-bottom" data-reveal-delay="600" style={{ justifyContent: 'center', display: 'flex', marginTop: '3rem', }}>
                 <a href="https://www.facebook.com/alexuhbot">
-                  <i class="fa fa-facebook" style={{marginRight: '1rem'}}></i>
+                  <i class="fab fa-facebook" style={{ marginRight: '1rem' }}></i>
                 </a>
                 <a href="https://www.instagram.com/alexuhbot/">
-                  <i class="fa fa-instagram" style={{marginLeft: '1rem'}}></i>
+                  <i class="fab fa-instagram" style={{ marginRight: '1rem', marginLeft: '1rem' }}></i>
+                </a>
+                <a href="https://discord.gg/mdUsmXmWEk">
+                  <i class="fab fa-discord" style={{ marginLeft: '1rem' }}></i>
                 </a>
               </div>
             </div>

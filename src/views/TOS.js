@@ -13,7 +13,7 @@ const TOS = () => {
 	      	Please read these Terms carefully, and contact us if you have any questions. 
 	      	By accessing or using our Products, you ("User") agree to be bound by these Terms. </p>
 
-	      <p>Alexuh listens in on voice conversations when you the user invite the Alexuh bot into your voice channel. Alexuh does not store these conversations beyond their intended use. After they are heard and any related commands are run, these conversations are deleted.</p> 
+	      <p>Alexuh listens in on voice conversations when you the user invite the Alexuh bot into your voice channel. Alexuh does not store these conversations beyond their intended use. After they are heard and any related commands are run, these audio conversations are deleted.</p> 
 	      
 	      <p>Alexuh reserves the right to store any and all information that can be used to improve it's service.</p>
 
@@ -27,7 +27,7 @@ const TOS = () => {
 
 	      <p>These terms may be changed without notice.</p>
 
-	      <p>Modified 6/21/20</p>
+	      <p>Modified 4/24/21</p>
     </>
   );
 }

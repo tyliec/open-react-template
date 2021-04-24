@@ -19,7 +19,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a target="_blank" href="https://discord.gg/qN9dkU4">
+          <a target="_blank" href="https://discord.gg/mdUsmXmWEk">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="16"
