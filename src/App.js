@@ -10,6 +10,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import TOS from './views/TOS';
+import Login from './views/Login';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -38,13 +39,12 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          
           <Route path="/tos" component={TOS} />
-
           <Route path="/invite" component={() => {
             window.location.href = "https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=32829248&scope=bot";
             return null;
           }}/>
+          <Route path="/login" component={Login} />
         </Switch>
       )} />
   );

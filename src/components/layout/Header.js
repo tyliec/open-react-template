@@ -14,7 +14,7 @@ const propTypes = {
 
 const defaultProps = {
   navPosition: '',
-  hideNav: true,
+  hideNav: false,
   hideSignin: false,
   bottomOuterDivider: false,
   bottomDivider: false
@@ -105,25 +105,25 @@ const Header = ({
                     'header-nav',
                     isActive && 'is-active'
                   )}>
-                {/*<div className="header-nav-inner">
+                <div className="header-nav-inner">
                   <ul className={
                     classNames(
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
+                    {/* <li>
                       <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li>
+                    </li> */}
                   </ul>
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="/login" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Login</Link>
                       </li>
                     </ul>}
-                </div> */}
+                </div>
               </nav>
             </>}
         </div>

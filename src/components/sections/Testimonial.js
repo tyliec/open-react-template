@@ -85,8 +85,8 @@ const Testimonial = ({
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Tylie</span>
-                  <span className="text-color-low">#9594 </span>
+                  <span className="testimonial-item-name text-color-high">Boba</span>
+                  <span className="text-color-low">#0001 </span>
                   {/* <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
                   </span>*/}
